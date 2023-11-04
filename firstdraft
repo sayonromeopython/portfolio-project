@@ -13,3 +13,11 @@ print_item_cost()
 
 
 
+
+prompting the user for a customer's name and today's date. Output the name and date. Create an object of type ShoppingCart.
+if __name__ == "__main__":
+  customer_name = input("Enter customer's name: ")
+  purchased_date = input("Enter today's date: ")
+  cart = ShoppingCart("Romeo Sayon", "February 1, 2020")
+  print(f"Customer name: {customer_name}")
+  print(f"Today's date: {purchased_date}")
